@@ -26,7 +26,7 @@ Galería de arte responsivo que presenta historias y fotografías de profesional
 
 ## Link para ver en GitHub
 
-[TRIPLE TEN ART GALLERY](https://github.com/cresposlibres/web_project_homeland.git)
+[TRIPLE TEN ART GALLERY](https://cresposlibres.github.io/web_project_homeland/)
 
 ## Autor
 

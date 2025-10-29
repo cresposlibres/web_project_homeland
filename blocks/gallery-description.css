@@ -1,5 +1,5 @@
 .gallery-description {
-    padding-right: 305px;
+    padding-right: 302px;
 }
 
 .gallery-description__title {
@@ -31,7 +31,7 @@
 
 @media screen and (max-width: 1024px) and (min-width: 545px) {
     .gallery-description {
-    padding-right: 0px;
+    padding: 90px 24px 88px 24px;
    }
 
    .gallery-description__title {
@@ -42,7 +42,7 @@
 @media screen and (max-width: 544px) {
     
    .gallery-description {
-    padding-right: 0px;
+   padding: 64px 16px 64px 16px;
    }
 
    .gallery-description__title {

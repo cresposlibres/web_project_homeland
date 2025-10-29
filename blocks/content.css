@@ -1,15 +1,8 @@
 .content {
-    padding: 0px 148px;
-}
+  padding: 0px 148px;   }
 
-@media screen and (max-width: 1024px) and (min-width: 545px) {
-   .content {
-    padding: 0px 20px;
-   } 
+@media screen and (max-width: 1024px) {
+  .content {
+    padding: 0px;
   }
-
-@media screen and (max-width: 544px) {
-    .content {
-    padding: 0px 20px;
-   } 
 }
