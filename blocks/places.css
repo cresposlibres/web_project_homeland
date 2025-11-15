@@ -102,6 +102,10 @@
     border-radius: 4px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .place__button:hover:enabled {
     background: linear-gradient(90deg, #1a3d6e, #0f2747);
 }
