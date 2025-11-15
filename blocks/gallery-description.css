@@ -26,27 +26,38 @@
 .gallery-description__description {
     font-size: 14px;
     line-height: 1.4;
+    padding-bottom: 118px;
     
 }
 
 @media screen and (max-width: 1024px) and (min-width: 545px) {
     .gallery-description {
-    padding: 90px 24px 88px 24px;
+    padding: 90px 24px 0px 24px;
    }
 
    .gallery-description__title {
     font-size: 38px;
 }
+
+    .gallery-description__description {
+        padding-bottom: 64px;
+        
+    }
   }
 
 @media screen and (max-width: 544px) {
     
    .gallery-description {
-   padding: 64px 16px 64px 16px;
+   padding: 64px 16px 38px 16px;
    }
 
    .gallery-description__title {
     font-size: 27px;
 }
+    .gallery-description__description {
+        line-height: 2;
+        padding-bottom: 0px;
+        font-size: 16px;
+    }
 
 }

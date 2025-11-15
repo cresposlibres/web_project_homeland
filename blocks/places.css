@@ -1,0 +1,253 @@
+
+.place {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    grid-template-rows: auto auto 1fr auto;
+    align-items: start;
+    padding: 0 53px;
+}
+
+.place__header {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: end;
+}
+
+.place__title, .place__country {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+.place__country {
+    display: block;
+}
+
+.place__artist-label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 0 10px 0;
+    color: #999;
+}
+
+.place__artists {
+    font-size: 18px;
+    margin: 0;
+    line-height: 22px;
+}
+
+.place__artists-wrapper {
+    padding-top: 177px;
+}
+
+
+.place__image-section {
+    grid-column: 1;
+    grid-row: 2 / 5;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+
+.place__image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    box-shadow: 10px 10px 25px 0 rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    aspect-ratio: 1 / 1;
+}
+
+
+.place__content {
+    grid-column: 2;
+    grid-row: 2 / 4;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.place__paragraph {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+    color: #fff;
+}
+
+.place__button {
+    width: fit-content;
+    padding: 13px 20px;
+    background: linear-gradient(#0278fe, #003a7b);
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.25);
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    grid-column: 1;
+    grid-row: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    border-radius: 4px;
+}
+
+.place__button:hover:enabled {
+    background: linear-gradient(90deg, #1a3d6e, #0f2747);
+}
+
+
+.place__image:hover {
+    opacity: 0.5;
+}
+
+@media screen and (min-width: 545px) and (max-width: 1024px) {
+
+    .place {
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-bottom: 0px;
+        column-gap: 40px;
+        row-gap: 0px;
+    }
+
+    .place__title, .place__country {
+        font-size: 42px;
+    }
+
+    .place__country {
+        display: inline;
+    }
+
+    .place__artists-wrapper {
+    padding-top: 0px;
+     }
+
+    .places {
+        display: flex;
+        flex-direction: column;
+        gap: 72px;
+    }
+
+    .place__button {
+        grid-column: 1;         
+        grid-row: 3;            
+        margin-top: 0px;       
+    }
+
+    
+    .place__image-section {
+        grid-row: 2;            
+    }
+
+    
+    .place__content {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .place {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto minmax(0, auto) min-content;
+    column-gap: 40px;
+    row-gap: 48px;
+}
+
+}
+
+
+@media (max-width: 544px) {
+    .place {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 60px;
+    }
+
+    .place__header {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-bottom: 12px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .place__title, .place__country {
+        font-size: 28px;
+    }
+
+    .place__country {
+        display: inline;
+    }
+
+    .place__artist-label {
+        font-size: 10px;
+    }
+
+    .place__artists {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .place__artists-wrapper {
+        padding-top: 0;
+    }
+
+    .place__image-section {
+        grid-column: 1;
+        grid-row: auto;
+        gap: 32px;
+        margin: 0;
+        padding: 0;  
+    }
+
+    .place__image {
+        aspect-ratio: 1 / 1;
+    }
+
+    .place__content {
+        grid-column: 1;
+        grid-row: auto;
+        gap: 16px;
+    }
+
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-left: 16px;
+        margin-right: 16px;
+
+    }
+
+    .place__button {
+        padding: 10px 16px;
+        font-size: 14px;
+        margin-top: 12px; 
+        margin-left: 16px;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+      
+
+     

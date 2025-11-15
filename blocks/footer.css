@@ -6,8 +6,16 @@
     font-size: 14px;
 }
 
-@media screen and (max-width: 1024px) {
+
+  @media screen and (max-width: 1024px) and (min-width: 545px) {
     .footer {
-    margin: 0px 0px 24px 0px;
-   }
-  }
+        margin-top: 90px;
+        margin-bottom: 25px;
+    }
+    }
+
+@media screen and (max-width: 544px) {
+    .footer {
+        margin-top: 65px;
+    }
+}
